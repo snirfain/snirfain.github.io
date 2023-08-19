@@ -1,0 +1,321 @@
+<!doctype html>
+
+<html lang="he" dir="rtl">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מרצה עומד ומדבר</title>
+
+    <!--JS -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <!--CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css\style.css" />
+    <link rel="stylesheet" href="css/TeleprompterPractice.css" />
+
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="/css/bootstrap.rtl.min.css">
+    <script src="js\bootstrap.bundle.js"></script>
+    <script src="js\main.js"></script>
+
+</head>
+
+
+
+<body>
+
+    <body>
+        <div class="top_header">
+            <header class="d-flex flex-wrap menu" id="topHeader">
+                <div class="d-flex logo">
+                    <a style="padding-right: 20px;" href="HomePage.html"
+                        class=" navbar-brand d-flex text-dark text-decoration-none ">
+                        <img id="Header-Logo" src="assets\imgs\main_Logo_neg.png"></img>
+                    </a>
+                </div>
+                <nav class="navbar navbar-expand-xl">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarScroll" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                            aria-label="Toggle navigation" style="background-color: #F5FAF0;">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarScroll">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item dropdown" style="padding-right: 1.2rem;">
+                                    <a class="nav-link dropdown-toggle" style="color:#F5FAF0;" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        נקודות חשובות לכולם </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="HomePage.html">האולפן שלנו</a></li>
+                                        <li><a class="dropdown-item" href="EihMitlabshimHP.html">איך להתלבש?</a></li>
+                                        <li><a class="dropdown-item" href="Teleprompter.html">טלפרומפטר</a></li>
+                                        <li><a class="dropdown-item" href="StoryTellingHP.html">טיפים להכנת שיעור</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown" style="padding-right: 1.2rem;">
+                                    <a class="nav-link dropdown-toggle" role="button" style="color:#F5FAF0;"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        מרצה עומד ומדבר </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="MartzeOmedMedaberHP.html">מידע כללי</a></li>
+                                        <li><a class="dropdown-item" href="EihMitlabshimHP.html">איך להתלבש?</a></li>
+                                        <li><a class="dropdown-item" href="EihKotvimTeleprompter.html">איך כותבים
+                                                טלפרומפטר?</a></li>
+                                        <li><a class="dropdown-item" href="EihLikroMiTeleprompter.html
+                                                    ">איך לקרוא מטלפרומפטר?</a></li>
+                                        <li><a class="dropdown-item" href="TeleprompterPractice.html
+                                                        ">תרגול שימוש בטלפרומפטר</a></li>
+                                        <li><a class="dropdown-item" href="StoryTellingHP.html">טיפים להכנת שיעור</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown" style="padding-right: 1.2rem;">
+                                    <a class="nav-link dropdown-toggle" role="button" style="color:#F5FAF0;"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        מרצה מציג מצגת
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="MartzeMetsigMatsegetHP.html">מידע כללי</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="EihMitlabshimHP.html">איך להתלבש?</a></li>
+                                        <li><a class="dropdown-item" href="EihMehinimMatseget.html">איך מכינים מצגת?</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="StoryTellingHP.html">טיפים להכנת שיעור</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <!--<li class="nav-item dropdown" style="padding-right: 1.2rem;">
+                                    <a class="nav-link dropdown-toggle" role="button" style="color:#F5FAF0;" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        מרצה ולוח חכם
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="MartzeVeluahHahamHP.html">מידע כללי</a></li>
+                                        <li><a class="dropdown-item" href="EihMitlabshimHP.html">איך להתלבש?</a></li>
+                                        <li><a class="dropdown-item" href="EihMehinimMatseget.html">איך מכינים מצגת?</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="StoryTellingHP.html">טיפים להכנת שיעור</a></li>
+                                        <li><a class="dropdown-item" href="EihMishtamshimBeluahHaham.html">איך משתמשים בלוח
+                                                חכם?</a></li>
+                                    </ul>
+                                </li>-->
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+            </header>
+
+
+
+        </div>
+
+
+        <div>
+            <h1 style="padding-bottom: 1rem;">מרצה עומד ומדבר</h1>
+
+        </div>
+        <iframe src="https://player.vimeo.com/video/831121832?h=3021b941d9" frameborder="0" width="100%" height="400rem"
+            allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+        <table>
+            <tr>
+                <td style="text-align: right;padding-left: 1.5rem; padding-top: 2rem; font-size: 18px; width: 50%;
+                    vertical-align: top; text-align: justify; padding-bottom: 3rem; padding-right: 1.5rem;">
+                    בתצוגת מרצה עומד ומדבר, המרצה עומד לבד באולפן ומשתמש בעיקר בקולו, מחוות ידיו והבעות פניו לצורך העברת
+                    המסר בסרטון.
+                    <br>
+                    יש למרצה אפשרות לעבוד עם טלפרומפטר (מכשיר שמטרתו הקרנת טקסט אל מול המצלמה כך שהמרצה יוכל לקרוא אותו
+                    תוך הסתכלות ישירה לעדשת המצלמה).
+                    <br>
+                    באמצעות השימוש בטלפרומפטר אפשר להשיג הרבה מטרות חשובות ביצירת סרטון הדרכה, או סרטון המצריך מבט ישיר
+                    למצלמה.
+                    <br>
+                    בתצורה זו המרצה בא לידי ביטוי בצורה הטובה ביותר, הוא תופס את מרכז הפריים ללא הסחות דעת.
+                    <br>
+                    היתרון המשמעותי של תצורה זו בשונה מאחרות, הוא שהיא מאפשרת לעורך להוסיף אלמנטים גרפיים שונים על
+                    הסרטון כגון: מילים להדגשה, תמונות וסרטונים ועוד.
+                </td>
+
+            </tr>
+        </table>
+
+        </div>
+
+        <div>
+            <br>
+            <p style="font-size:1.2rem;">
+                אם החלטת להצטלם תוך קריאה מטלפרומפטר, ברכותינו!
+                <br>
+                הכנו עבורך רשימת תיוג
+                <br>
+                הרשימה מכילה את כל מה שצריך לדעת
+                <br>
+                כאשר מגיעים ליום צילומים הכולל שימוש בטלפרומפטר
+            </p>
+
+
+            <div style="min-width: 15rem; padding-bottom: 3rem; display: inline-flex;max-width: 30rem;">
+
+                <a style="color: #004128;" href="assets\documents\TiugPrompter.pdf" download>
+
+                    <img src="assets\imgs\PicsForFooter\TiugTeleprompter.png" class="card-img-top" alt="...">
+
+                </a>
+                <br>
+            </div>
+        </div>
+
+
+        <div>
+            <div style="border-top: #004128 solid 2px; padding-top: 2rem;">
+                <h3 style=" color: #004128; text-align:start;">קישורים שימושיים להמשך הלמידה</h3>
+
+            </div>
+
+            <div class="row" style="align-items: flex-start;">
+
+                <div class="col-4 d-flex" id="buttonButtom" style="text-align: -webkit-center;">
+                    <div class="card" id="cardDown"
+                        style=" width: 18rem; background-color: #F5FAF0; border: solid 3px; ">
+                        <img src="assets\imgs\PicsForFooter\EihMitlabshimLittlePic.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-size: 1.1rem; font-weight: bold;">איך להתלבש?</h5>
+                            <p class="card-text" style="font-size: 0.8rem;">איך נכון להתלבש כאשר מגיעים לאולפן ירוק? מה
+                                עושים ומה לא?</p>
+                        </div>
+                        <a style="color: #004128;" href="EihMitlabshimHP.html">ללמידה נוספת...</a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-4 d-flex" id="buttonButtom" style="text-align: -webkit-center;">
+                    <div class="card" style=" width: 18rem; background-color: #F5FAF0; border: solid 3px; ">
+                        <img src="assets\imgs\PicsForFooter\EihKotvimTextToTeleprompter.jpg" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-size: 1.1rem; font-weight: bold;">איך כותבים טלפרומפטר
+                            </h5>
+                            <p class="card-text" style="font-size: 0.8rem;">טיפים ושיטות לכתיבת טקסט ועבודה נכונה עם
+                                הטלפרומפטר</p>
+                        </div>
+                        <a style="color: #004128;" href="EihKotvimTeleprompter.html">ללמידה
+                            נוספת...</a>
+                    </div>
+
+                </div>
+
+                <div class="col-4 d-flex" id="buttonButtom" style="text-align: -webkit-center;">
+
+                    <div class="card" style=" width: 18rem; background-color: #F5FAF0; border: solid 3px; ">
+                        <img src="assets\imgs\PicsForFooter\TupimLehahanatShiur.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title" style="font-size: 1.1rem; font-weight: bold;">טיפים להכנת שיעור</h5>
+                            <p class="card-text" style="font-size: 0.8rem;">טיפים שימושיים להכנת שיעור, העברת מסרים
+                                ועיצוב מצגת</p>
+                        </div>
+                        <a style="color: #004128;" href="StoryTellingHP.html">ללמידה נוספת...</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+        <script src="js\script.js"></script>
+    </body>
+    <footer>
+        <div style="background-color: #004128; color: #F5FAF0;">
+
+            <div> תוצר זה פותח במסגרת פרויקט גמר לתואר ראשון ב<a href="https://www.hit.ac.il/telem/overview">פקולטה
+                    לטכנולוגיות למידה</a>, HIT | <a class="button" href="#popup1">למידע נוסף>></a>
+
+            </div>
+        </div>
+
+    </footer>
+
+    <div id="popup1" class="overlay">
+        <div class="popup">
+            <div style="background-color: #004128; color: #F5FAF0; padding-top: 5px; padding-bottom: 3px;">
+
+
+                <h6>אודות</h6><a class="close" href="#">&times;</a>
+            </div>
+            <br>
+
+            <h2><b>Chroma</b>כי זה העתיד</h2>
+            <h5> אתר הדרכה לפרזנטורים לקראת צילומים באולפן ירוק </h5>
+            <div class="content">
+                <p style="margin: 0px;">פרויקט גמר, תשפ"ב</p>
+                <a href="https://www.hit.ac.il/telem/overview">הפקולטה לטכנולוגיות למידה</a>
+                <br><br>
+                <table style="text-align-last: start;">
+                    <tr>
+                        <th rowspan="4"><img style="height: 106px; padding-left: 15px; " src="assets\imgs\HIT LOGO.png">
+                        </th>
+                        <th>צוות הפרויקט:</th>
+                    </tr>
+                    <tr>
+
+                        <td>פיינשטיין שניר ומזרחי ירדן</td>
+                    </tr>
+                    <tr>
+
+                        <th>מנחים:</th>
+                    </tr>
+                    <tr>
+
+                        <td>ד"ר רונן המר ולילך גל</td>
+                    </tr>
+                </table>
+                <br>
+
+                <table style="text-align-last: start;">
+                    <tr>
+                        <th rowspan="5"><img style="height: 106px; padding-left: 15px; " src="assets\imgs\sqLogo.png">
+                        </th>
+                        <th>בשיתוף:</th>
+                    </tr>
+                    <tr>
+
+                        <td>היחידה לטלוויזיה ומולטימדיה</td>
+                    </tr>
+                    <tr>
+
+                        <td>אוניברסיטת בר-אילן</td>
+                    </tr>
+                    <tr>
+
+                        <th>נציג האגרון:</th>
+                    </tr>
+                    <tr>
+
+                        <td>אמיר בן-דוד</td>
+                    </tr>
+                </table>
+
+            </div>
+
+            <div style="background-color: #004128; color: #F5FAF0; padding-top: 5px; padding-bottom: 3px;">
+                <h6>© כל הזכויות שמורות למכון הטכנולוגי חולון - HIT</h6>
+            </div>
+        </div>
+    </div>
+</html>
